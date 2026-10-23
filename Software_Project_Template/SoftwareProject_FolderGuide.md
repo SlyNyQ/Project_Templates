@@ -33,27 +33,30 @@ ProjectName/
 
 # Current Repository State
 
-In this repository, `Software_Project_Template/` currently serves as the concrete implementation of the `ProjectName/` structure above.
+Within this repository, `Software_Project_Template/` is now one of three template tracks under `Project_Templates/`.
 
 The repository root currently contains:
 
-- `Maestro.md`
-- `SoftwareProject_FolderGuide.md`
+- `README.md`
 - `Software_Project_Template/`
+- `Media_Project_Template/`
+- `Mechanical_Project_Template/`
 
-Current root snapshot:
+Current repository snapshot:
 
 ```
-Maestro/
-|-- Maestro.md
-|-- SoftwareProject_FolderGuide.md
+Project_Templates/
+|-- README.md
+|-- Mechanical_Project_Template/
+|-- Media_Project_Template/
 `-- Software_Project_Template/
     |-- 00_Project_Overview/
     |-- 01_Planning/
     |-- 02_Governance_and_Equity/
     |-- 03_Product/
     |-- 04_Data/
-    `-- 05_Finance_and_Growth/
+    |-- 05_Finance_and_Growth/
+    `-- SoftwareProject_FolderGuide.md
 ```
 
 ---
@@ -233,6 +236,8 @@ Current repository contents under `Software_Project_Template/03_Product/`:
 - tests/
 - documentation/
 
+At the current template stage, `architecture/`, `api/`, `database/`, and `infra/` contain seed documents, while `backend/`, `frontend/`, `tests/`, and `documentation/` remain scaffold directories for project-specific implementation.
+
 Notes:
 
 - architecture/ → system diagrams, ADRs  
@@ -332,7 +337,7 @@ Should include:
 
 Current repository note:
 
-A standalone `README.md` is not currently present. The repository currently uses `Maestro.md` as the project summary and `SoftwareProject_FolderGuide.md` as the internal structure guide.
+A repository-level `README.md` is now present at the root of `Project_Templates/` and summarizes the three template tracks. A dedicated `README.md` inside `Software_Project_Template/` is not currently present, so `SoftwareProject_FolderGuide.md` remains the detailed software structure reference.
 
 ---
 

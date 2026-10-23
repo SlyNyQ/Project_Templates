@@ -41,19 +41,21 @@ ProjectName/
 Current repository snapshot:
 
 ```
-Asphalos/
-|-- MediaProject_FolderGuide.md
+Project_Templates/
 |-- README.md
-`-- Media_Project_Template/
-    |-- 00_Project_Overview/
-    |-- 01_Planning/
-    |-- 02_Governance_and_Equity/
-    |-- 03_Content_Production/
-    |-- 04_AI_Systems/
-    `-- 05_Distribution_and_Growth/
+|-- Mechanical_Project_Template/
+|-- Media_Project_Template/
+|   |-- 00_Project_Overview/
+|   |-- 01_Planning/
+|   |-- 02_Governance_and_Equity/
+|   |-- 03_Content_Production/
+|   |-- 04_AI_Systems/
+|   |-- 05_Distribution_and_Growth/
+|   `-- MediaProject_FolderGuide.md
+`-- Software_Project_Template/
 ```
 
-`Media_Project_Template/` is the active template folder in this repository. The section notes below document the live files now present inside that template without replacing the recommended structure.
+`Media_Project_Template/` is now one of three active template folders in this repository. The section notes below document the live files now present inside that template without replacing the recommended structure.
 
 ---
 
@@ -231,6 +233,8 @@ Current template contents:
 - thumbnails/  
 - video_assets/  
 
+At the current template stage, `published_content/` and `raw_exports/` are preserved with `.gitkeep` placeholders, while the remaining production directories are present and ready for project-specific assets.
+
 Creative assets must be organized like code.
 
 ---
@@ -266,6 +270,8 @@ Current template contents:
 - content_generation_engine/  
 - testing/  
 - voice_model/  
+
+At the current template stage, `content_generation_engine/` and `testing/` are placeholder-preserved with `.gitkeep`, while the other AI system folders are scaffolded but not yet populated with implementation files.
 
 This is what makes the brand scalable.
 
@@ -318,6 +324,10 @@ Should include:
 Current repository contents:
 
 - README.md  
+
+Current repository note:
+
+The repository-level `README.md` now introduces all three template tracks from the root of `Project_Templates/`. A dedicated `README.md` inside `Media_Project_Template/` is not currently present, so `MediaProject_FolderGuide.md` remains the detailed media structure reference.
 
 ---
 
